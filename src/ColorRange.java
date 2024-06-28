@@ -5,7 +5,7 @@ public class ColorRange {
     public static void main(String args[]) {
         
        String color;
-        System.out.print("Insira um código de cor\n");
+        System.out.print("Insira um código de cor\n");  
         Scanner keyboard = new Scanner(System.in);
         double wlength = keyboard.nextDouble();
 
@@ -33,8 +33,9 @@ public class ColorRange {
         }
         }
         
+       //Códigos de cores:
         //Violeta: 380-450
-        //Azul: 450-495
+        //Azul: 450-495  
         // Verde: 495-570
         //Amarelo: 570-590
         //Laranja: 590-620
